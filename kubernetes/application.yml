@@ -9,7 +9,7 @@ spec:
   template:
     metadata:
       labels:
-        app: node-pod
+        app: lbg4-api
     spec:
       containers:
       - name: node-container
@@ -22,7 +22,7 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: node-pod
+      app: lbg4-api
   strategy:
     rollingUpdate:
       maxUnavailable: 25%
