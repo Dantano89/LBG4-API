@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: node-container
-        image: gcr.io/lbg-210322/danproject:v{{VERSION}}
+        image: gcr.io/lbg-210322/danproject:v'{{VERSION}}'
         ports:
         - containerPort: 5000
         env:
